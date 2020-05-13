@@ -11,6 +11,7 @@ public class Main {
     public static void main(String[] args) {
         List<Thing> things = new LinkedList<>();
 
+
         System.out.println("Inter the quantity of things: ");
         Scanner scanner = new Scanner(System.in);
         int numberOfThings = scanner.nextInt();
